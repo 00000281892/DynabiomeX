@@ -84,3 +84,26 @@ gru_model = load_trained_model('gru')
 # Run inference
 # y_pred = model.predict(X_test)
 ```
+### Usage
+To run the full training and evaluation pipeline using the provided dummy data:
+
+Navigate to the notebooks/ directory.
+
+Open 1_DynaBiomeX_Full_Pipeline.ipynb.
+
+Run all cells.
+
+To generate Calibration Curves (Figure 4 in the manuscript):
+```bash
+from src import load_trained_model, plot_calibration_curve
+
+# Load models
+models = {
+    'TFT': load_trained_model('tft'),
+    'Bi-LSTM': load_trained_model('bilstm')
+}
+
+# Generate predictions and plot
+# (See notebook for full implementation)
+```
+
