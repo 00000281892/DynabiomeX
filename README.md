@@ -14,10 +14,8 @@ This repository contains the official implementation of the **DynaBiomeX** frame
 
 **DynaBiomeX** is a deep learning framework designed to predict gut dysbiosis following hematopoietic cell transplantation (HCT). It addresses the dual challenges of microbiome data sparsity (zero-inflation) and clinical alarm fatigue.
 
-
-
 The framework utilizes a **Screener-Sentinel** workflow:
-1.  **The Screener (Sensitivity):** Stacking Ensembles identify broad risk patterns to minimize false negatives.
+1.  **The Screener (Sensitivity):** Stacking Ensembles identify broad risk patterns to minimise false negatives.
 2.  **The Sentinel (Precision):** An adapted **Temporal Fusion Transformer (TFT)** uses Physiological Gating to filter false positives.
 
 ### Key Contributions
@@ -105,5 +103,17 @@ models = {
 
 # Generate predictions and plot
 # (See notebook for full implementation)
+```
+
+Citation
+If you use this code or framework in your research, please cite:
+```text
+@article{Qureshi2026DynaBiomeX,
+  title={DynaBiomeX: An Interpretable Dual-Strategy Deep Learning Framework for Architectural Noise Filtration in Sparse Longitudinal Microbiome Data},
+  author={Qureshi, Awais and Wahid, Abdul and Qazi, Shams and Shahzad, Muhammad K. and Kiani, Hashir Moheed},
+  journal={Journal of Biomedical Informatics},
+  year={2026},
+  note={Under Review}
+}
 ```
 
