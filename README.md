@@ -58,3 +58,29 @@ DynaBiomeX/
 ├── results/
 │   └── saved_models/   # Pre-trained .keras files
 └── README.md
+```
+### Model Zoo (Pre-trained Models)
+We provide the best-performing models from our experiments to facilitate instant reproduction of results without retraining.
+
+The models are located in results/saved_models/:
+
+* **tft: Best Enhanced Temporal Fusion Transformer (ECE: 0.0085)
+
+* **gru: GRU + Attention Mechanism
+
+* **bilstm: Bidirectional LSTM Baseline
+
+### How to Load Pre-trained Models
+You can load these models using our utility function, which automatically handles custom layers (Attention, GRN, etc.).
+```bash
+from src import load_trained_model
+
+# Load the best TFT model (The "Sentinel")
+model = load_trained_model('tft') 
+
+# Load the GRU baseline
+gru_model = load_trained_model('gru')
+
+# Run inference
+# y_pred = model.predict(X_test)
+```
