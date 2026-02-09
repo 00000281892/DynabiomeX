@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![TensorFlow 2.15+](https://img.shields.io/badge/TensorFlow-2.15+-orange.svg)](https://tensorflow.org)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](notebooks/1_DynaBiomeX_Full_Pipeline.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/00000281892/DynaBiomeX/blob/main/notebooks/1_DynaBiomeX_Full_Pipeline.ipynb)
 
 This repository contains the official implementation of the **DynaBiomeX** framework, as described in the paper:
 > **"DynaBiomeX: An Interpretable Dual-Strategy Deep Learning Framework for Architectural Noise Filtration in Sparse Longitudinal Microbiome Data"**
