@@ -8,7 +8,7 @@
 This repository contains the official implementation of the **DynaBiomeX** framework, as described in the paper:
 > **"DynaBiomeX: An Interpretable Dual-Strategy Deep Learning Framework for Architectural Noise Filtration in Sparse Longitudinal Microbiome Data"**
 > *Awais Qureshi et al.*
-> *Submitted to Journal of Biomedical Informatics (2026)*
+> *Submitted to the Journal of BMC Medical Informatics and Decision Making (2026)*
 
 ## 📌 Overview
 
